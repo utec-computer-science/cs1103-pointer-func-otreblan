@@ -1,16 +1,16 @@
 # cs2100-PointerFuncs
 
 # Work!
-Los punteros función pueden ayudar a simular poli-morfismo! Vamos a divertirnos haciendo la función  /bubblesort/  usando punteros a función. 
+Los punteros función pueden ayudar a simular poli-morfismo! Vamos a divertirnos haciendo la función  /bubblesort/  usando punteros a función.
 
 ### Structure
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
 void * _bubblesort_(
-	void * _array_, 
+	void * _array_,
 	void (*_puntero_) (void *, int _i, int _k),
 	int _tam_
 ){
@@ -22,19 +22,19 @@ void * _bubblesort_(
 }
 
 void  _b_int_ (void * _vector_, int _i,int _k){
- // TODO:  QUE COSA PONGO AQUI?
+// TODO:  QUE COSA PONGO AQUI?
 }
 
 void  _b_float_ (void * _vector_, int _i,int _k){
- // TODO:  QUE COSA PONGO AQUI?
+// TODO:  QUE COSA PONGO AQUI?
 }
 
 void  _b_double_ (void * _vector_, int _i,int _k){
- // TODO:  QUE COSA PONGO AQUI?
+// TODO:  QUE COSA PONGO AQUI?
 }
 
 void  _b_char_ (void * _vector_, int _i,int _k){
- // TODO:  QUE COSA PONGO AQUI?
+// TODO:  QUE COSA PONGO AQUI?
 }
 
 int main(){
@@ -44,7 +44,7 @@ int main(){
 	double _array_3 [5] = {3.0,8.0,2.0,4.0,15.0};
 	char _array_4 [6] = {'k','a','r','l','o','s'};
 
-	_bubblesort_(_array_1,_b_int_,5);	
+	_bubblesort_(_array_1,_b_int_,5);
 	// PRINT
 	_bubblesort_(_array_2,_b_float_,5);
 	// PRINT
@@ -53,7 +53,7 @@ int main(){
 	_bubblesort_(_array_4,_b_char_,6);
 	// PRINT
 
-    return 0;
+	return 0;
 }
 
 ```
