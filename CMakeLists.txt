@@ -21,7 +21,7 @@ include(GNUInstallDirs)
 
 # El nombre del proyecto
 project(bubble
-	VERSION 0.0.0
+	VERSION 1.0.0
 	DESCRIPTION "Bubble"
 	HOMEPAGE_URL "https://github.com/utec-computer-science/cs1103-pointer-func-otreblan"
 	LANGUAGES "CXX"
